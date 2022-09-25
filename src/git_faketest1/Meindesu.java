@@ -4,7 +4,7 @@ public class Meindesu {
 	
     public static void main(String[] args) {
         Ohayou hello = new Ohayou();
-        hello.say();
+        System.out.println(hello.say());
     }
 
 }

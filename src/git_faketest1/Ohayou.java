@@ -4,8 +4,8 @@ public class Ohayou {
     
     String message = "おはようございます";
 
-    public void say() {
-        System.out.println(message);
-    }
+    public String say() {
+        return message;
+
 
 }
