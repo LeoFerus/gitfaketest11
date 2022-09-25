@@ -1,8 +1,16 @@
 package git_faketest1;
 
 public class Ohayou {
-    
-    String message = "ãŠã¯ã‚ˆã†ã”ã–ã„ã¾ã™";
+
+    String message;
+
+    public Ohayou() {
+        this("ªªªÏªèª¦ª´ª¶ª¤ªŞª¹");
+    }
+
+    public Ohayou(String message) {
+        this.message = message;
+    }
 
     public void say() {
         System.out.println(message);
