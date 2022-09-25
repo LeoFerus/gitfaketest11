@@ -5,15 +5,15 @@ public class Ohayou {
     String message;
 
     public Ohayou() {
-        this("ªªªÏªèª¦ª´ª¶ª¤ªÞª¹.");
+        this("ì•ˆë…•í•˜ì„¸ìš”");
     }
 
     public Ohayou(String message) {
         this.message = message;
     }
 
-    public void say() {
-        System.out.println(message);
+    public String say() {
+        return message;
     }
 
 }
