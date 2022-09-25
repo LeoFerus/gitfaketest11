@@ -5,7 +5,7 @@ public class Ohayou {
     String message;
 
     public Ohayou() {
-        this("ªªªÏªèª¦ª´ª¶ª¤ªÞª¹");
+        this("ªªªÏªèª¦ª´ª¶ª¤ªÞª¹.");
     }
 
     public Ohayou(String message) {
